@@ -1,0 +1,20 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/jerb_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:gravity="end">
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="@dimen/small_button"
+        android:layout_height="@dimen/small_button"
+        android:layout_gravity="right"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:background="@drawable/ic_sign_out_option"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_label_15sp" />
+
+</android.support.v7.widget.Toolbar>
